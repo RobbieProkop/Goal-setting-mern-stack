@@ -194,7 +194,7 @@ input {
   width: 64px;
   height: 64px;
   border: 8px solid;
-  border-color: #fff transparent #555 transparent;
+  border-color: #fff transparent rgb(190, 183, 183) transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }

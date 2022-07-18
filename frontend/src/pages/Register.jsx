@@ -46,15 +46,14 @@ function Register() {
     e.preventDefault();
 
     if (password !== password2) {
-      toast.error("Passwords do not match");
-    } else {
-      const userData = {
-        name,
-        email,
-        password,
-      };
-      dispatch(register(userData));
+      return toast.error("Passwords do not match");
     }
+    const userData = {
+      name,
+      email,
+      password,
+    };
+    dispatch(register(userData));
   };
 
   if (isLoading) {
