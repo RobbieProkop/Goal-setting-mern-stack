@@ -111,6 +111,10 @@ input {
   position: relative;
 }
 
+.goal h2 {
+  color: #333;
+}
+
 .goal .close {
   position: absolute;
   top: 10px;

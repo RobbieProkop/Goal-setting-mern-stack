@@ -22,6 +22,7 @@ const getGoals = async (token) => {
     },
   };
   const res = await axios.get(API_URL, config);
+  return res.data;
 };
 
 const goalService = {
